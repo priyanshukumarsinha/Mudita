@@ -1,0 +1,17 @@
+.carousel img {
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgba(192, 119, 23, 0.788);
+}
+nav .active {
+  font-weight: bold;
+}
+nav a:hover {
+  color: rgb(13, 109, 13) !important;
+  text-decoration: underline !important;
+}/*# sourceMappingURL=style.css.map */
