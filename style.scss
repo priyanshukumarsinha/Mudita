@@ -1,6 +1,9 @@
+body{
+    background-color: #f3dcb9;
+}
 .carousel{
     img{
-        height: 100vh;
+        // height: 120vh;
         width: 100vw;
     }
 }
@@ -10,8 +13,102 @@ nav{
     .active{
         font-weight: bold;
     }
+    img{
+        -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.5),-10px -10px 40px 5px rgba(0,0,0,0.5);
+        -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.5),-10px -10px 40px 5px rgba(0,0,0,0.5);
+        box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.5),-10px -10px 40px 5px rgba(0,0,0,0.5);
+        border-radius: 50%;
+    }
     a:hover{
         color: rgb(13, 109, 13) !important;
         text-decoration: underline !important;
     }
+    ul{
+        li{
+            padding-left: 2.5rem;
+
+        }
+    }
+    li:hover{
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+
+
+}
+
+section{
+    text-align: center;
+    span.heading{
+        font-size: 3rem;
+        font-weight: bold;
+      }
+    .about{
+        height: 100vh;
+        span.heading{
+            font-size: 1.5rem;
+        }
+        .card{
+            border-radius: 8px;
+            // border: 1px solid #cccccc;
+            border: none;
+            // border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            width: 250px;
+            height: 350px;
+            transition: all linear 200ms;
+            padding: 1rem;
+            text-align: justify;
+            box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.15), -10px -10px 39px -14px rgba(0,0,0,0.05), -10px 10px 39px -14px rgba(0,0,0,0.05), 10px -10px 39px -14px rgba(0,0,0,0.15);
+          }
+          .card:hover{
+            transform: scale(1.1);
+            transition: all linear 200ms;
+            z-index: 1;
+            box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+            cursor: pointer;
+          }
+    }
+
+    .principles{
+        .card{
+            // border-radius: 8px;
+            border: none;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            width: 250px;
+            height: 250px;
+            transition: all linear 200ms;
+            text-align: center;
+          }
+          .card:hover{
+            transform: scale(1.1);
+            transition: all linear 200ms;
+            z-index: 1;
+            box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+            cursor: pointer;
+          }
+
+    }
+    .supporters{
+        height: 70vh;
+        .card{
+            border: none;
+            background-color: inherit;
+        }
+    }
+
+}
+
+footer{
+    background-color: #ed9815;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
 }
