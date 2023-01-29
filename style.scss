@@ -44,7 +44,7 @@ section{
         font-weight: bold;
       }
     .about{
-        height: 100vh;
+        margin: 10rem auto;
         span.heading{
             font-size: 1.5rem;
         }
@@ -74,6 +74,7 @@ section{
     }
 
     .principles{
+        margin-bottom: 10rem;
         .card{
             // border-radius: 8px;
             border: none;
@@ -91,17 +92,24 @@ section{
             transform: scale(1.1);
             transition: all linear 200ms;
             z-index: 1;
+            font-weight: bold;
             box-shadow: 1px 1px 10px rgba(0,0,0,.3);
             cursor: pointer;
           }
 
     }
     .supporters{
-        height: 70vh;
+        // height: 70vh;
+        margin: 2rem auto;
         .card{
             border: none;
             background-color: inherit;
         }
+        img{
+            margin: 2rem 0;
+            
+        }
+
     }
 
 }
@@ -111,4 +119,7 @@ footer{
     padding: 2rem;
     text-align: center;
     font-weight: bold;
+    i{
+        color: rgb(36, 36, 36);
+    }
 }

@@ -38,7 +38,7 @@ section span.heading {
   font-weight: bold;
 }
 section .about {
-  height: 100vh;
+  margin: 10rem auto;
 }
 section .about span.heading {
   font-size: 1.5rem;
@@ -64,6 +64,9 @@ section .about .card:hover {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+section .principles {
+  margin-bottom: 10rem;
+}
 section .principles .card {
   border: none;
   border-radius: 0;
@@ -80,15 +83,19 @@ section .principles .card:hover {
   transform: scale(1.1);
   transition: all linear 200ms;
   z-index: 1;
+  font-weight: bold;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 section .supporters {
-  height: 70vh;
+  margin: 2rem auto;
 }
 section .supporters .card {
   border: none;
   background-color: inherit;
+}
+section .supporters img {
+  margin: 2rem 0;
 }
 
 footer {
@@ -96,4 +103,7 @@ footer {
   padding: 2rem;
   text-align: center;
   font-weight: bold;
+}
+footer i {
+  color: rgb(36, 36, 36);
 }/*# sourceMappingURL=style.css.map */
